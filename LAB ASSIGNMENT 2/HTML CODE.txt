@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<TITLE> My Practice Web Page</TITLE>
+<BODY>
+    <div data-role="page" id="home">
+        
+            <div data-role="header" data-theme="d" >
+                <h1> Web Page For Practice </h1>
+                   
+        </div>
+                <div data-role="content" data-theme="a"> 
+                    <p><a href="#Service" data-role="button"> Welcome</a> </p> 
+                    <p><a href="#Map" data-role="button"> Map Services </a></p>
+                    <p><a href="#video" data-role="button"> Video </a></p>           
+        </div>
+            <div data-role="footer" data-theme="d">
+        
+            <a href="#Info" data-rel="popup">Info</a>
+                <div data-role="popup" id="Info">
+                    <p>This is a Practical App </p>
+                
+        </div>
+        </div>
+        </div>
+    <div data-role="page" id="Service">    
+        <div data-role="header" data-theme="b" >
+            
+           
+          <a href="http://photobucket.com/images/welcome" target="_blank"><img src="http://i839.photobucket.com/albums/zz316/GUS_RICO/transparent-welcome-small.png" border="0" alt="welcome photo: welcome-center transparent-welcome-small.png"/></a>
+        </div>
+        <div data-role="content" id="map">
+        </div>
+    </div>
+        <div data-role="page" id="Map">
+            <div data-role="header" data-theme= "b">
+                <h1> Map Services </h1>
+                <a data-rel="back" data-icon="home">Home</a>
+
+            </div>
+            <div data-role="content" id="map">
+            </div>
+                </div>
+        <div data-role="page" id="video">
+            <div data-role="header" data-theme= "b">
+                <h1> Video </h1>
+                <a data-rel="back" data-icon="home">Home</a>
+                <a data-rel="reload" data-icon="refresh"> Refresh </a>
+                
+                <iframe width="550" height="325"
+                    src="http://www.youtube.com/embed/334tcVm7ycU">
+                </iframe> 
+            </div>
+           
+     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
